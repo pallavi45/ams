@@ -1,0 +1,326 @@
+body
+{
+   background:-webkit-linear-gradient(right,#2a32c1 ,#931031 60% );
+
+    /*background-image: url(images/pexels-photo-953214.jpeg);*/
+   
+}
+.navigation
+{
+    width:100%;
+    height: 80px;
+    position: fixed;
+    top:0%;
+    left: 0%;
+    box-shadow: 0px 0px 30px black;
+    z-index:100;
+    background-image: linear-gradient(-90deg, #2a32c1 0%, #931031 100%);
+
+}
+.logo
+{
+    position: absolute;
+    font-family: monster;
+    left: 1%;
+    color: white;
+    margin-top: -8px;
+    
+}
+
+.nav-bar ul
+{
+   float: right;
+   position: absolute;
+   right: 1%;
+   top:20%;
+ 
+    
+}
+.nav-bar li
+{
+    display: inline;
+    padding: 30px 15px 26px 15px;
+    font-family: monster;
+    text-decoration: none;
+    font-size: 18px;
+    color:white;
+    font-weight:500;
+    
+}
+.nav-bar li:hover
+{
+    display: inline;
+    padding: 30px 15px 26px 15px;
+    font-family: monster;
+    text-decoration: none;
+    font-size: 18px;
+    color:white;
+    font-weight:500;
+    background-color:#24747a;
+    color:white;
+    cursor: pointer;
+}
+.nav-bar li a
+{
+    padding: 30px 15px 26px 15px;
+    font-family: monster;
+    text-decoration: none;
+    font-size: 18px;
+    color:white;
+    font-weight:500;
+    
+    
+    
+}
+.logo a
+{
+    font-family: monster;
+    text-decoration: none;
+    font-size: 18px;
+    color:white;
+    font-weight:500;
+    box-shadow: 0px 0px 30px black;
+    
+}
+.nav-bar li a:hover
+{
+    background-color:#24747a;
+    color:white;
+}
+.loginform
+{
+    position: absolute;
+    z-index: 99;
+    top:10%;
+    width:40%;
+    height: auto;
+    left:30%;
+    background-color: transparent;
+}
+.loginform form
+{
+    border:none;
+    padding:30px;
+    color: white;
+}
+
+.loginform form input
+{
+    font-size: 18px;
+    border:none;
+    box-shadow: 0px 1px 0px white;
+    width:100%;
+    margin:18px;
+    background-color: transparent;
+    color:white;
+}
+.loginform form h3
+{
+    text-align: left;
+    font-family:Ubuntu;
+    color:white;
+    font-size:40px; 
+}
+
+.loginform form button
+{
+    width: 100%;
+    padding: 12px;
+    border-radius: 8px;
+    left:3%;
+    color: white;
+    background-color:#25ccdb;
+    position: relative;
+    margin-top: 15px;
+    border: none;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.loginform form button:hover
+{
+    background-color: #025134;
+    color: white;
+    
+}
+.userid
+{
+    background-image: url("images/user.png");
+    background-repeat: no-repeat;
+    background-size: 30px;
+    background-position: 5px 1px;
+    padding: 8px 8px 8px 40px;
+    width: 80%;
+}
+.delete_icon
+{
+    background-image: url("images/delete.png");
+    background-repeat: no-repeat;
+    background-size: 30px;
+    background-position: 5px 1px;
+    padding: 8px 8px 8px 40px;
+    width: 80%;
+}
+.password
+{
+    background-image: url("images/password.png");
+    background-repeat: no-repeat;
+    background-size: 30px;
+    background-position: 5px 1px;
+    padding: 8px 8px 8px 40px;
+}
+@font-face
+{
+    font-family:'Ubuntu';
+    src:url('fonts/Ubuntu-Regular.ttf');
+    font-family: 'monster';
+    src:url('fonts/Montserrat-Bold.ttf');
+    
+}
+.home-Container
+{
+    width: 100%;
+    height: auto;
+    position: absolute;
+    z-index: 99;
+    top:28%;
+    width:40%;
+    height: auto;
+    left:10%;
+    background-color: transparent;
+    -webkit-transition: width 3s;
+    transition: 3s;
+    /*box-shadow: 0px 0px 30px black;*/
+}
+.home-Container:hover
+{
+    /*-webkit-transform: scale(1.3);
+    -ms-transform: scale(1.3);*/
+    transform: scale(1.3);
+    transition: 3s;
+}
+.home-Container h3
+{
+    font-family: sans-serif;
+    font-size: 40px;
+   
+}   
+.loginform-home
+{
+    display: none;
+    position: absolute;
+    z-index: 99;
+    top:12%;
+    width:40%;
+    height: auto;
+    right:1%;
+    background-color: transparent;
+}
+.loginform-home form
+{
+    border:none;
+    padding:30px;
+    color: white;
+}
+.loginform-home form input
+{
+    font-size: 18px;
+    border:none;
+    box-shadow: 0px 1px 0px white;
+    width:80%;
+    margin:18px;
+    background-color: transparent;
+    color:white;
+}
+.loginform-home form h3
+{
+    text-align: left;
+    font-family:Ubuntu;
+    color:white;
+    font-size:40px; 
+}
+
+.loginform-home form button
+{
+    width: 100%;
+    padding: 12px;
+    border-radius: 8px;
+    left:3%;
+    color: white;
+    background-color:#25ccdb;
+    position: relative;
+    margin-top: 15px;
+    border: none;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.loginform-home form button:hover
+{
+    background-color: #025134;
+    color: white;
+    
+}
+.close {
+    color: #fff;
+    float: right;
+    right:10%;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+  color: red;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.student_details
+{
+    margin-top: 85px;
+    z-index: 98;
+    width: 100%;
+    display: none;
+    
+}
+.student_details table
+ {
+    font-family:sans-serif;
+    width: 98%;
+    cursor: pointer;
+    border-collapse: collapse;
+    margin: 10px;
+   
+}
+
+.student_details table td,.student_details table th {
+    
+    text-align: left;
+    padding: 10px;
+
+
+
+}
+.student_details table tr
+{
+
+
+}
+.student_details table tr:nth-child(even)
+{
+    background-color: rgb(0,0,0,0.4);
+    color: white;
+}
+.student_details table tr:nth-child(odd)
+{
+    background-color: rgb(0,0,0,0.4);
+    color:white;
+}
+.student_details table tr:hover
+{
+    background-color: rgb(0,0,0,0.1);
+    transform: scale(1.01);
+    transition: 0.2s;
+    box-shadow: 0px 0px 5px black;
+}
